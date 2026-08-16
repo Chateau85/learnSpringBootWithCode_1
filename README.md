@@ -20,5 +20,7 @@
 ## 검증
 
 ```bash
-./gradlew clean test bootJar
+./gradlew clean test spotbugsMain spotbugsTest bootJar
 ```
+
+SpotBugs와 FindSecBugs 보고서는 `build/reports/spotbugs/`에 생성됩니다.
