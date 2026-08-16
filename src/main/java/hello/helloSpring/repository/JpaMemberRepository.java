@@ -2,7 +2,7 @@ package hello.helloSpring.repository;
 
 import hello.helloSpring.domain.Member;
 
-import javax.persistence.EntityManager;
+import jakarta.persistence.EntityManager;
 import java.util.List;
 import java.util.Optional;
 
